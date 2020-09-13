@@ -8,6 +8,16 @@
   transform: translateY(-50%);
 }
 
+
+.ion-color-primary {
+  --ion-color-base: #2c2f33 !important;
+  --ion-color-base-rgb: var(--ion-color-primary-rgb, 56, 128, 255) !important;
+  --ion-color-contrast: var(--ion-color-primary-contrast, #fff) !important;
+  --ion-color-contrast-rgb: var(--ion-color-primary-contrast-rgb, 255, 255, 255) !important;
+  --ion-color-shade: var(--ion-color-primary-shade, #3171e0) !important;
+  --ion-color-tint: var(--ion-color-primary-tint, #4c8dff) !important;
+}
+
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -24,4 +34,16 @@
 
 #container a {
   text-decoration: none;
+}
+
+.banner{
+  height: 200px;
+  width: 100%;
+}
+
+.card-d{
+  background-color: #C70039;
+  padding: 42px;
+  color: antiquewhite;
+  border-radius: 100px;
 }
