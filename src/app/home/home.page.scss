@@ -6,6 +6,7 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+ 
 }
 
 
@@ -42,8 +43,22 @@
 }
 
 .card-d{
-  background-color: #C70039;
-  padding: 42px;
-  color: antiquewhite;
-  border-radius: 100px;
+  color: aliceblue;
+  background: darkgoldenrod;
+  border-radius: 4px;
+  text-align: center;
+  // border-radius: 100px;
 }
+
+ion-card-content  {
+  padding: 5px !important;
+}
+ion-card-header  {
+  padding: 5px 10px !important;
+}
+
+.bg {
+  background-image: url('../../assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  }

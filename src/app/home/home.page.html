@@ -6,19 +6,21 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content  >
+<ion-content class="bg">
 
   <ion-row class="ion-no-padding">
-    <ion-col class="ion-no-padding"> 
-          <img class="banner" src="../assets/images/shadi.jpeg" />
-          
+    <ion-col size="6" class="ion-no-padding">
+      <img class="banner" src="../assets/images/shadi.jpeg" />
     </ion-col>
-   
+    <ion-col size="6" class="ion-no-padding">
+        <img class="banner" src="../assets/images/bg.jpg" />
+      </ion-col>
+
   </ion-row>
 
-   
-  <ion-grid >
-   
+
+  <ion-grid>
+
 
     <!-- <ion-row>
       <ion-col  >
@@ -27,50 +29,130 @@
       </ion-col> 
     </ion-row> -->
 
-  
-    <ion-row>
-      <ion-col size="6">
-        <ion-card-content class="card-d"  [routerLink]="'/people-list'"   
-        >
-          <h2> Pre-Wedding</h2>  
-        </ion-card-content> 
-      </ion-col>
-      <ion-col size="6">
-        <ion-card-content class="card-d"  [routerLink]="'/news-list'"   
-         >
-          <h2>Food and Bev</h2> 
-        </ion-card-content> 
-      </ion-col>
-    </ion-row>
+    <ion-card>
 
-    <ion-row>
-      <ion-col size="6">
-        <ion-card-content class="card-d"  [routerLink]="'/people-list'"   
-       >
-          <h2> Pre-Wedding</h2>  
-        </ion-card-content> 
-      </ion-col>
-      <ion-col size="6">
-        <ion-card-content class="card-d"  [routerLink]="'/news-list'"   
-         >
-          <h2>Food and Bev</h2> 
-        </ion-card-content> 
-      </ion-col>
-    </ion-row>
+      <ion-card-header>
 
-    
-  
-  
-     
+        <ion-card-title>Pre-Wedding Arrngements</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-row>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Renovation</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/news-list'">
+              <h2>Carpenter</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2> Card Printing</h2>
+            </ion-card-content>
+          </ion-col>
+          <!-- <ion-col size="3">
+                  <ion-card-content class="card-d"  [routerLink]="'/people-list'"   
+                 >
+                    <h2> Pre-Wedding</h2>  
+                  </ion-card-content> 
+                </ion-col> -->
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+
+      <ion-card-header>
+
+        <ion-card-title>Event Day Booking</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-row>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2> Tent Wala</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/news-list'">
+              <h2>Catering</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2> Special Food</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Sound Light</h2>
+            </ion-card-content>
+          </ion-col>
+
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Band</h2>
+            </ion-card-content>
+          </ion-col>
+
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Gadiwala</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Photography</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Beautician</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Mehend</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Pandit Ji</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Entertainment</h2>
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+              <h2>Water</h2>
+            </ion-card-content>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+
+
+
+
+
+
+
+
   </ion-grid>
 
 
 
-   <!-- fab placed to the bottom end -->
+
+  <!-- fab placed to the bottom end
    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button>
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
-  </ion-fab>
-   
+  </ion-fab> -->
+
 </ion-content>

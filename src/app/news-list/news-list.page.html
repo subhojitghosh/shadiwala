@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+      <ion-title>NEWS</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+
+  <ion-card *ngFor="let item of data ">
+    <img src="{{item.image}}" />
+    <ion-card-header>
+      <ion-card-subtitle>{{item.date}}</ion-card-subtitle>
+      <ion-card-title>{{item.subject}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{item.details}}
+    </ion-card-content>
+  </ion-card>
+ 
+   
+  
+</ion-content>

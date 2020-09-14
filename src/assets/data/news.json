@@ -1,0 +1,38 @@
+[
+    { 
+        "image":"assets/images/projectmanagement2.jpg",
+        "date":"30-8-2020",  
+        "subject" : "Project management" , 
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+    },
+    { 
+        "image":"assets/images/ionicimg.jpg",
+        "date":"30-8-2020",  
+        "subject" : "Ionic development" , 
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+    },
+    { 
+        "image":"assets/images/laravel.jpeg",
+        "date":"30-8-2020",  
+        "subject" : "Laravel coruse" , 
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+    },
+    { 
+        "image":"assets/images/python.jpg",
+        "date":"30-8-2020",  
+        "subject" : "Python Security" , 
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+    },
+    { 
+        "image":"assets/images/android.png",
+        "date":"30-8-2020",  
+        "subject" : "Android developer" , 
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+    },
+    { 
+        "image":"assets/images/ios.png",
+        "date":"30-8-2020",  
+        "subject" : "iOS development" , 
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+    }
+]
