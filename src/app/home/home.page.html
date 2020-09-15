@@ -8,23 +8,29 @@
 
 <ion-content class="bg">
 
+  <!-- Searchbar with cancel button never shown -->
+<ion-searchbar showCancelButton="never"></ion-searchbar>  
+
+
   <ion-row class="ion-no-padding">
-    <ion-col size="6" class="ion-no-padding">
-      <img class="banner" src="../assets/images/shadi.jpeg" />
+    <ion-col size="6" >
+      <img class="banner" src="https://image.wedmegood.com/resized/600X/uploads/images/318b9385a1074fef91bc701a6f13b60fcatmobhomebanner/Bridaloutfitmobile.png" />
     </ion-col>
-    <ion-col size="6" class="ion-no-padding">
-        <img class="banner" src="../assets/images/bg.jpg" />
-      </ion-col>
+    <ion-col size="6"  >
+      <img class="banner" src="https://image.wedmegood.com/resized/600X/uploads/images/318b9385a1074fef91bc701a6f13b60fcatmobhomebanner/Bridaloutfitmobile.png"  />
+    </ion-col>
 
   </ion-row>
 
 
   <ion-grid>
-
+ 
 
     <!-- <ion-row>
       <ion-col  >
         <ion-card-content style="margin-top: 1rem;"> 
+           
+ 
         </ion-card-content> 
       </ion-col> 
     </ion-row> -->
@@ -37,18 +43,27 @@
       </ion-card-header>
       <ion-card-content>
         <ion-row>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/people-list'">
+              <ion-avatar>
+                <img src="https://89icmo9u41gsiicpo1puwj-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/Renovated-living-room.jpg">
+              </ion-avatar>
               <h2>Renovation</h2>
             </ion-card-content>
           </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/news-list'">
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/news-list'">
+              <ion-avatar>
+                <img src="https://res.cloudinary.com/highereducation/image/upload/v1533591754/TheBestColleges.org/carpenter.jpg">
+              </ion-avatar>
               <h2>Carpenter</h2>
             </ion-card-content>
           </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/people-list'">
+              <ion-avatar>
+                <img src="https://image.wedmegood.com/resized/1000X/uploads/vendor_cover_pic/29/46b4b149-326c-498e-bb36-9b28f52bd1a5.png">
+              </ion-avatar>
               <h2> Card Printing</h2>
             </ion-card-content>
           </ion-col>
@@ -66,74 +81,86 @@
 
       <ion-card-header>
 
-        <ion-card-title>Event Day Booking</ion-card-title>
+        <ion-card-title>Entertainment</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-row>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2> Tent Wala</h2>
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/people-list'">
+              <ion-avatar>
+                <img src="https://image.wedmegood.com/resized/1000X/uploads/vendor_cover_pic/5446/ac960e98-795f-44ae-97d0-7b954ca65ac6.png">
+              </ion-avatar>
+              <h2>DJ</h2>
             </ion-card-content>
           </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/news-list'">
-              <h2>Catering</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2> Special Food</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Sound Light</h2>
-            </ion-card-content>
-          </ion-col>
-
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/news-list'">
+              <ion-avatar>
+                <img src="https://web.villkart.com/wp-content/uploads/2018/10/entertainment-2.jpg">
+              </ion-avatar>
               <h2>Band</h2>
             </ion-card-content>
           </ion-col>
-
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Gadiwala</h2>
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/people-list'">
+              <ion-avatar>
+                <img src="https://www.manhattanbride.com/wp-content/uploads/2018/10/True-Balance-Dance-ON38-1289.jpg">
+              </ion-avatar>
+              <h2> Dance</h2>
             </ion-card-content>
           </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Photography</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Beautician</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Mehend</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Pandit Ji</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Entertainment</h2>
-            </ion-card-content>
-          </ion-col>
-          <ion-col size="4">
-            <ion-card-content class="card-d" [routerLink]="'/people-list'">
-              <h2>Water</h2>
+          <ion-col size="3">
+            <ion-card-content   [routerLink]="'/people-list'">
+              <ion-avatar>
+                <img src="https://www.radioandmusic.com/sites/www.radioandmusic.com/files/images/entertainment/2018/12/22/Abhay-Jodhpurkar.jpg">
+              </ion-avatar>
+              <h2> Singer</h2>
             </ion-card-content>
           </ion-col>
         </ion-row>
       </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+
+      <ion-card-header>
+
+        <ion-card-title>Photography & Video</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+          <ion-row>
+            <ion-col size="3">
+              <ion-card-content   [routerLink]="'/people-list'">
+                <ion-avatar>
+                  <img src="https://5.imimg.com/data5/SN/LS/CJ/SELLER-4650457/pre-wedding-sho0t-500x500.jpg">
+                </ion-avatar>
+                <h2>Pre Wedding Shoot</h2>
+              </ion-card-content>
+            </ion-col>
+            <ion-col size="3">
+              <ion-card-content   [routerLink]="'/news-list'">
+                <ion-avatar>
+                  <img src="https://srejonimagery.com/wp-content/uploads/2016/07/wedding-photographer-kolkata052-1.jpg">
+                </ion-avatar>
+                <h2>On Wedding Shoot</h2>
+              </ion-card-content>
+            </ion-col>
+            <ion-col size="3">
+              <ion-card-content   [routerLink]="'/people-list'">
+                <ion-avatar>
+                  <img src="https://5.imimg.com/data5/SM/RJ/GLADMIN-54538089/post-wedding-shoot-500x500.png">
+                </ion-avatar>
+                <h2> Post Wedding Shoot</h2>
+              </ion-card-content>
+            </ion-col>
+            <!-- <ion-col size="3">
+                    <ion-card-content class="card-d"  [routerLink]="'/people-list'"   
+                   >
+                      <h2> Pre-Wedding</h2>  
+                    </ion-card-content> 
+                  </ion-col> -->
+          </ion-row>
+        </ion-card-content>
     </ion-card>
 
 
