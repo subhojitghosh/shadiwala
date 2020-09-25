@@ -11,14 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'people-list',
-    loadChildren: () => import('./people-list/people-list.module').then( m => m.PeopleListPageModule)
-  },
-  {
-    path: 'news-list',
-    loadChildren: () => import('./news-list/news-list.module').then( m => m.NewsListPageModule)
-  },
+  // {
+  //   path: 'people-list',
+  //   loadChildren: () => import('./people-list/people-list.module').then( m => m.PeopleListPageModule)
+  // },
+  // {
+  //   path: 'news-list',
+  //   loadChildren: () => import('./news-list/news-list.module').then( m => m.NewsListPageModule)
+  // },
 ];
 
 @NgModule({
